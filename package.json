@@ -2,8 +2,7 @@
   "name": "material-kit-2-react",
   "version": "2.0.0",
   "private": true,
-  
-  "homepage": "https://stevenarevalo.github.io",
+  "homepage": "https://steverockss.github.io/nicole-birthday",
   "author": "Creative Tim",
   "license": "See license in https://www.creative-tim.com/license",
   "description": "React version of Material Kit 2 by Creative Tim",
@@ -40,7 +39,7 @@
     "react-dom": "17.0.2",
     "react-flatpickr": "3.10.7",
     "react-router-dom": "6.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "react-syntax-highlighter": "15.4.5",
     "semantic-ui-react": "^2.1.3",
     "web-vitals": "1.0.1"
