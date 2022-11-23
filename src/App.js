@@ -16,7 +16,7 @@ Coded by www.creative-tim.com
 import { useEffect } from "react";
 
 // react-router components
-import {Router, Link,  Routes, Route, Navigate, useLocation } from "react-router-dom";
+import {HashRouter, Link,  Routes, Route, Navigate, useLocation } from "react-router-dom";
 
 // @mui material components
 import { ThemeProvider } from "@mui/material/styles";
@@ -55,9 +55,10 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Routes>
-      {getRoutes(routes)}
-        <Route path="*" element={<AboutUs />} />
-       </Routes >
+      <Route path="/#" element={<AboutUs />} />
+      <Route path="*" element={<AboutUs />} />
+      </Routes>
+      
 
     </ThemeProvider>
   );
