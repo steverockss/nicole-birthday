@@ -33,7 +33,7 @@ import Author from "../Author/index";
 
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 const clientId = "ca1995c482c645ae921b0b7aca276a80";
-const redirectUri = "https://your-birthday.onrender.com/#/landing-pages/about-us";
+const redirectUri = "https://your-birthday.onrender.com/";
 const scopes = ["user-read-currently-playing", "user-read-playback-state", "user-top-read"];
 // Get the hash of the url
 const hash2 = window.location.hash
