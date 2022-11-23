@@ -26,6 +26,7 @@ import MKButton from "components/MKButton";
 // Material Kit 2 React examples
 
 
+
 // Images
 import bgImage from "assets/images/bg-about-us.jpg";
 import Author from "../Author/index";
